@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Layouts.LinearLayout.LinearLayout">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 1"
+        android:layout_marginHorizontal="36dp"
+        android:paddingVertical="16dp"
+
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 2"
+        android:layout_marginHorizontal="36dp"
+        android:paddingVertical="16dp"
+        />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="36dp"
+        android:weightSum="2"
+        tools:context=".Layout.Layout">
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Button 3"
+            android:paddingVertical="16dp"
+            android:layout_gravity="left"
+            android:layout_marginRight="10dp"
+
+            />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Button 4"
+            android:paddingVertical="16dp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
