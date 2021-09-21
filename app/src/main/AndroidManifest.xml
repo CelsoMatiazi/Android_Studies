@@ -10,16 +10,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CursoAndroidDH">
         <activity
+            android:name=".Fragments.PassandoDados.MainActivityPassandoDados"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JogoDaVelha.TableActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".Fragments.BottonNav.HelpActivity"
             android:exported="true" />
         <activity android:name=".Fragments.BottonNav.MainActivityBtnNav">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-             <intent-filter>
-             <action android:name="android.intent.action.MAIN" />
-
-
-             <category android:name="android.intent.category.LAUNCHER" />
-             </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".Fragments.MultFragments.MainActivityMult">
             <intent-filter>
