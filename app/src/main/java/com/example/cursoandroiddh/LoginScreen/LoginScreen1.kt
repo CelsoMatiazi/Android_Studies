@@ -11,9 +11,9 @@ import com.example.cursoandroiddh.R
 class LoginScreen1 : AppCompatActivity() {
 
 
-    lateinit var buttonLogin: Button
-    lateinit var nomeLogin: EditText
-    lateinit var emailLogin: EditText
+    private lateinit var buttonLogin: Button
+    private lateinit var nomeLogin: EditText
+    private lateinit var emailLogin: EditText
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -7,7 +7,7 @@ import com.example.cursoandroiddh.R
 
 class MainActivityFragment : AppCompatActivity() {
 
-    val nameClass = "Teste" + this.javaClass.name
+    private val nameClass = "Teste" + this.javaClass.name
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -9,10 +9,10 @@ import com.example.cursoandroiddh.R
 class LinearLayout : AppCompatActivity() {
 
 
-    lateinit var button1: Button
-    lateinit var button2: Button
-    lateinit var button3: Button
-    lateinit var button4: Button
+    private lateinit var button1: Button
+    private lateinit var button2: Button
+    private lateinit var button3: Button
+    private lateinit var button4: Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

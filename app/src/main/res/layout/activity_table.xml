@@ -10,194 +10,230 @@
 
 
     <LinearLayout
-        android:gravity="center"
-        android:layout_marginBottom="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/grey_light">
+
+                <TextView
+                    android:id="@+id/matrix_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textSize="64sp"
+                    />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/grey_light"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp">
+
+                <TextView
+                    android:id="@+id/matrix_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textSize="64sp"
+                    />
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/grey_light">
+                <TextView
+                    android:id="@+id/matrix_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textSize="64sp"
+                    />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/grey_light">
+
+                <TextView
+                    android:id="@+id/matrix_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textSize="64sp"
+                    />
+
+            </FrameLayout>
+
+            <FrameLayout
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/grey_light"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp">
+
+                <TextView
+                    android:id="@+id/matrix_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textSize="64sp"
+                    />
+
+            </FrameLayout>
+
+            <FrameLayout
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/grey_light">
+
+                <TextView
+                    android:id="@+id/matrix_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textSize="64sp"
+                    />
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/grey_light">
+
+                <TextView
+                    android:id="@+id/matrix_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textSize="64sp"
+                    />
+
+            </FrameLayout>
+
+
+
+            <FrameLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/grey_light"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp">
+
+                <TextView
+                    android:id="@+id/matrix_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textSize="64sp"
+                    />
+
+
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/grey_light">
+
+                <TextView
+                    android:id="@+id/matrix_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textSize="64sp"
+                    />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
 
         <FrameLayout
-            android:layout_width="100dp"
+            android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:background="@color/grey_light">
+            android:layout_marginTop="60dp">
 
-            <TextView
-                android:id="@+id/matrix_0"
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_velha"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center"
-                android:text=""
-                android:textStyle="bold"
-                android:textSize="64sp"
-            />
+                android:src="@drawable/ic_baseline_refresh_24"
+                app:maxImageSize="40dp"
+                app:backgroundTint="#FF6200EE"
+                app:tint="@android:color/white"
+                android:layout_gravity="bottom|right"
+                android:layout_margin="22dp"
+                android:clickable="true"
+                />
 
-         </FrameLayout>
 
-        <FrameLayout
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="@color/grey_light"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp">
 
-             <TextView
-                android:id="@+id/matrix_1"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text=""
-                android:textStyle="bold"
-                android:textSize="64sp"
-            />
         </FrameLayout>
 
 
-        <FrameLayout
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="@color/grey_light">
-            <TextView
-                android:id="@+id/matrix_2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text=""
-                android:textStyle="bold"
-                android:textSize="64sp"
-            />
-
-         </FrameLayout>
 
     </LinearLayout>
 
 
-    <LinearLayout
-        android:gravity="center"
-        android:layout_marginBottom="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
-        <FrameLayout
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="@color/grey_light">
-
-             <TextView
-                android:id="@+id/matrix_3"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text=""
-                android:textStyle="bold"
-                android:textSize="64sp"
-            />
-
-         </FrameLayout>
-
-        <FrameLayout
-
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="@color/grey_light"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp">
-
-             <TextView
-                android:id="@+id/matrix_4"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text=""
-                android:textStyle="bold"
-                android:textSize="64sp"
-            />
-
-         </FrameLayout>
-
-        <FrameLayout
-
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="@color/grey_light">
-
-             <TextView
-                android:id="@+id/matrix_5"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text=""
-                android:textStyle="bold"
-                android:textSize="64sp"
-            />
-
-         </FrameLayout>
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <FrameLayout
-
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="@color/grey_light">
-
-             <TextView
-                android:id="@+id/matrix_6"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text=""
-                android:textStyle="bold"
-                android:textSize="64sp"
-            />
-
-         </FrameLayout>
-
-
-
-        <FrameLayout
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="@color/grey_light"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp">
-
-        <TextView
-            android:id="@+id/matrix_7"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text=""
-            android:textStyle="bold"
-            android:textSize="64sp"
-            />
-
-
-    </FrameLayout>
-
-
-        <FrameLayout
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="@color/grey_light">
-
-        <TextView
-            android:id="@+id/matrix_8"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text=""
-            android:textStyle="bold"
-            android:textSize="64sp"
-            />
-
-    </FrameLayout>
-
-    </LinearLayout>
 
 
 
