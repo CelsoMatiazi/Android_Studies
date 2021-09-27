@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import androidx.core.view.isVisible
 import com.example.cursoandroiddh.R
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import java.lang.RuntimeException
@@ -34,7 +35,6 @@ class PassDataFragA : Fragment() {
     }
 
 
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -49,22 +49,33 @@ class PassDataFragA : Fragment() {
 
 
         botaoSoma.setOnClickListener{
-            callback.somar()
+            calcular(1)
+
         }
 
         botaoSubtrai.setOnClickListener{
-            callback.subtrair()
+            calcular(-1)
+
         }
 
         botaoLimpar.setOnClickListener{
-            callback.clear()
-        }
+            calcular(0)
 
+        }
 
         return view
     }
 
-
-
+    var value = 0
+    fun calcular(num: Int){
+        if(num == 0){
+            value = 0
+            callback.calcular(0)
+        }else{
+            value+=num
+            callback.calcular(value)
+        }
+        botaoLimpar.isVisible = value != 0
+    }
 
 }

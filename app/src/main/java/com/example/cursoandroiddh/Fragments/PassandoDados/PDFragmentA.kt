@@ -14,6 +14,7 @@ import java.lang.RuntimeException
 
 class PDFragmentA : Fragment() {
 
+
     private lateinit var button: Button
     private lateinit var edtxt_nome: EditText
     private lateinit var edtxt_idade: EditText
@@ -81,6 +82,7 @@ class PDFragmentA : Fragment() {
                 edtxt_senha.text.toString(),
                 edtxt_confSenha.text.toString()
             )
+
             listener?.enviarDadosA(userData)
 
             edtxt_nome.setText(" ")

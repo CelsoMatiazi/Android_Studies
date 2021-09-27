@@ -14,7 +14,6 @@ class PassDataFragmentB : Fragment() {
     private lateinit var textResult: TextView
 
 
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -27,14 +26,9 @@ class PassDataFragmentB : Fragment() {
         return view
     }
 
-    fun setResult(valor: Int){
 
-        if(valor == 0){
-            contador = 0
-        }else{
-            contador+=valor
-        }
-        textResult.text = contador.toString()
+    fun setResult2(valor: Int){
+        textResult.text = valor.toString()
     }
 
 }

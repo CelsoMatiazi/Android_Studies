@@ -38,15 +38,11 @@ class PassData2MainActivity : AppCompatActivity(), IComunicador {
             .add(R.id.containerB, fragmentB).commit()
     }
 
-    override fun somar() {
-        fragmentB.setResult(1)
-    }
 
-    override fun subtrair() {
-       fragmentB.setResult(-1)
-    }
 
-    override fun clear() {
-        fragmentB.setResult(0)
+    override fun calcular(num: Int) {
+
+        fragmentB.setResult2(num)
+
     }
 }
