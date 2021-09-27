@@ -2,8 +2,6 @@ package com.example.cursoandroiddh.Fragments.PassandoDados3
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.cursoandroiddh.Fragments.PassandoDados2.PassDataFragA
-import com.example.cursoandroiddh.Fragments.PassandoDados2.PassDataFragmentB
 import com.example.cursoandroiddh.R
 
 class MainActivityPD3 : AppCompatActivity(), IComunicador {

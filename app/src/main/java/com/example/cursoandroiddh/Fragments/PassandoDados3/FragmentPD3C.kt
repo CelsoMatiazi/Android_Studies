@@ -35,7 +35,7 @@ class FragmentPD3C : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
 
-        var view = inflater.inflate(R.layout.fragment_p_d3_c, container, false)
+        val view = inflater.inflate(R.layout.fragment_p_d3_c, container, false)
 
         botaoZerar = view.findViewById(R.id.btn_zerar)
         view?.isVisible = false

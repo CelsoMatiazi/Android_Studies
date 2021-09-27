@@ -32,7 +32,7 @@ class FragmentPD3B : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        var view = inflater.inflate(R.layout.fragment_p_d3_b, container, false)
+        val view = inflater.inflate(R.layout.fragment_p_d3_b, container, false)
 
         botaoMenos = view.findViewById(R.id.btn_menos)
 

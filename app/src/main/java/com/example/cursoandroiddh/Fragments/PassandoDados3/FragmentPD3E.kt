@@ -20,7 +20,7 @@ class FragmentPD3E : Fragment() {
     ): View? {
 
         // Inflate the layout for this fragment
-        var view = inflater.inflate(R.layout.fragment_p_d3_e, container, false)
+        val view = inflater.inflate(R.layout.fragment_p_d3_e, container, false)
 
         txtContator = view.findViewById(R.id.txt_contador)
         view?.isVisible = false
