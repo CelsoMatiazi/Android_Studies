@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey_dark"
+    tools:context=".Fragments.TabBar.TabBarFragmentA">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Miles Davis"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="Trumpet"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_width="wrap_content"
+        android:layout_height="183dp"
+        android:src="@drawable/miles" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="Miles Dewey Davis III (Alton, 26 de maio de 1926 – Santa Mônica, 28 de setembro de 1991) foi um trompetista, compositor e bandleader de jazz norte-americano.
+Considerado um dos mais influentes músicos do século XX, Davis esteve na vanguarda de quase todos os desenvolvimentos do jazz desde a Segunda Guerra Mundial até a década de 1990. Ele participou de várias gravações do bebop e das primeiras gravações do cool jazz. Foi parte do desenvolvimento do jazz modal, e também do jazz fusion que originou-se do trabalho dele com outros músicos no final da década de 1960 e no começo da década de 1970.
+Miles Davis pertenceu a uma classe tradicional de trompetistas de jazz, que começou com Buddy Bolden e desenvolveu-se com Joe King Oliver, Louis Armstrong, Roy Eldridge e Dizzy Gillespie. Ao contrário desses músicos ele nunca foi considerado com um alto nível de habilidade técnica. Seu grande êxito como músico, entretanto, foi ir mais além do que ser influente e distinto em seu instrumento, e moldar estilos inteiros e maneiras de fazer música através dos seus trabalhos. Muitos dos mais importantes músicos de jazz fizeram seu nome na segunda metade do século XX nos grupos de Miles Davis, incluindo: Joe Zawinul, Chick Corea e Herbie Hancock, os saxofonistas John Coltrane, Wayne Shorter, George Coleman e Kenny Garrett, o baterista Tony Williams e o guitarrista John McLaughlin.
+Como trompetista Davis tinha um som puro e claro, mas também uma incomum liberdade de articulação e altura. Ele ficou conhecido por ter um registro baixo e minimalista de tocar, mas também era capaz de conseguir alta complexidade e técnica com seu trompete."
+            />
+
+    </ScrollView>
+
+</LinearLayout>

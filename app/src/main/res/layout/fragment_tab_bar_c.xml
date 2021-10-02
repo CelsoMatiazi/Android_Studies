@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey_dark"
+    tools:context=".Fragments.TabBar.TabBarFragmentA">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Pat Metheny"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="Guitar"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_width="wrap_content"
+        android:layout_height="183dp"
+        android:src="@drawable/pat" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="Iniciando com o trompete já aos 8 anos de idade, Metheny trocou para a guitarra ao 12 anos. Aos 15 anos, já estava trabalhando com os melhores músicos de jazz do Kansas, adquirindo experiência em bandas desde muito jovem. O seu primeiro sucesso na cena internacional do jazz foi em 1974, com o lançamento de seu primeiro álbum, Bright Size Life (1976), que segundo a crítica, reinventara o som tradicional da guitarra jazz para uma nova geração de guitarristas. Durante a sua carreira, continuou a redefinir o gênero, utilizando novas tecnologias e trabalhando constantemente para refinar sua capacidade sonora e de improvisação no seu instrumento. Planeando a sua carreira com sabedoria, trabalhou primeiro com uma produtora de grande prestígio na música moderna (ECM), depois noutra de inclinações mais pop (Geffen) e finalmente com a multi-nacional (Warner Bros). Flertou com o jazz-rock, com grande sucesso e chegou mesmo a ter videoclipes exibidos na rede MTV. Segundo os críticos Richard Cook e Brian Morton, Metheny tornou-se uma figura-chave na música instrumental dos últimos 20 anos. Durante os anos, atuou com músicos tão diversos como Steve Reich, Ornette Coleman, Herbie Hancock, Brad Mehldau, Jim Hall, Jaco Pastorius, Joni Mitchell, Milton Nascimento e David Bowie. Formou uma parceria de composição com o tecladista Lyle Mays por mais de vinte anos - uma parceria que foi comparada às de Lennon/McCartney e de Ellington/Strayhorn por críticos e ouvintes. O trabalho de Metheny inclui composições para guitarra solo, instrumentos elétricos e acústicos, grandes orquestras e peças para ballet, com passagens que variam do jazz moderno ao rock e ao clássico."
+        />
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

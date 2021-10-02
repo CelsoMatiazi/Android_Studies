@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey_dark"
+    tools:context=".Fragments.TabBar.TabBarFragmentA">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Jimi Hendrix"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+            
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="Guitar"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_width="wrap_content"
+        android:layout_height="183dp"
+        android:src="@drawable/jimi" />
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="James Marshall Jimi Hendrix (nascido Johnny Allen Hendrix; Seattle, 27 de novembro de 1942[1] – Londres, 18 de setembro de 1970) foi um guitarrista, cantor e compositor norte-americano. Em praticamente todas as listas já publicadas de melhores guitarristas da história, ocupa o primeiro lugar,[2][3][4][5] e um dos mais influentes músicos de sua era, em diversos gêneros musicais. Depois de obter sucesso inicial na Europa, conquistou fama nos Estados Unidos depois de seu desempenho em 1967 no Festival Pop de Monterey. Hendrix foi a principal atração, dois anos mais tarde, do icônico Festival de Woodstock e do Festival da Ilha de Wight, em 1969 e 1970 respetivamente. Hendrix preferia amplificadores valvulados de alta potência, com os quais tirava um som saturado e seco, e frequentemente aproximava-se com a guitarra de frente para os altofalantes para produzir um efeito chamado feedback, em que o som vai-se realimentando, agregando harmônicos e sustentação. Esse efeito agradável e musical é às vezes confundido com outro, desagradável, a microfonia.[9] Hendrix foi um dos músicos que popularizaram o pedal wah-wah, que ele utilizava frequentemente para dar uma expressividade quase vocal a seus solos, particularmente com o uso de bends e legato baseados na escala pentatônica. Foi influenciado por artistas de blues como T-Bone Walker, B.B. King, Muddy Waters, Howlin' Wolf, Albert King e Elmore James,[10][11][12][13] guitarristas de rhythm and blues e soul como Curtis Mayfield, Steve Cropper, assim como de alguns artistas do jazz moderno. Em 1966, Hendrix, que tocou e gravou com a banda de Little Richard de 1964 a 1965, foi citado como tendo dito: Quero fazer com minha guitarra o que Little Richard faz com sua voz"
+            />
+        
+        
+    </ScrollView>
+
+   
+
+
+</LinearLayout>
