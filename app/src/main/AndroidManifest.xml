@@ -10,15 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CursoAndroidDH">
         <activity
-            android:name=".Fragments.ViewPager.ViewPAgerMainActivity"
-            android:exported="true" >
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
+            android:name=".RecicleView.Exemplo1.RecicleViewMainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name=".Fragments.ViewPager.ViewPAgerMainActivity"
+            android:exported="true">
 
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
         <activity
             android:name=".Fragments.TabBar.TabBarMainActivity"
             android:exported="true">
