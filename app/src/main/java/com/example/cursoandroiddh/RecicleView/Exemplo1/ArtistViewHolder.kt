@@ -5,6 +5,6 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cursoandroiddh.R
 
-class AlunoViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+class ArtistViewHolder(view: View) : RecyclerView.ViewHolder(view) {
    var nome = view.findViewById<TextView>(R.id.TV_recycle_ex1)
 }

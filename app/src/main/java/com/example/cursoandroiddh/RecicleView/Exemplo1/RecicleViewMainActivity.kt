@@ -7,6 +7,8 @@ import android.widget.LinearLayout.VERTICAL
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
+
+
 @SuppressLint("WrongConstant")
 class RecicleViewMainActivity : AppCompatActivity() {
 
@@ -20,7 +22,7 @@ class RecicleViewMainActivity : AppCompatActivity() {
         //GridLayoutManager(this,3,VERTICAL,false)
     }
 
-    private val alunos = listOf(
+    private val artists = listOf(
         "Mike Stern",
         "Scott Henderson",
         "Paco de Lucia",
@@ -46,6 +48,6 @@ class RecicleViewMainActivity : AppCompatActivity() {
         setContentView(recycler)
 
         recycler.layoutManager = manager
-        recycler.adapter = AdapterAlunos(this, alunos)
+        recycler.adapter = AdapterArtists(this, artists)
     }
 }

@@ -6,27 +6,28 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cursoandroiddh.R
 
-class AdapterAlunos(
+
+
+class AdapterArtists(
         val context: Context,
-        private val alunos: List<String>
-    ): RecyclerView.Adapter<AlunoViewHolder>() {
+        private val artists: List<String>
+    ): RecyclerView.Adapter<ArtistViewHolder>() {
 
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AlunoViewHolder {
-       return AlunoViewHolder(
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ArtistViewHolder {
+       return ArtistViewHolder(
            LayoutInflater.from(context)
                .inflate(R.layout.recycler_view_ex1, parent, false)
        )
     }
 
-    override fun onBindViewHolder(holder: AlunoViewHolder, position: Int) {
-        val nomeAluno: String = alunos[position]
-        holder.nome.text = nomeAluno
+    override fun onBindViewHolder(holder: ArtistViewHolder, position: Int) {
+        val artistName: String = artists[position]
+        holder.nome.text = artistName
     }
 
     override fun getItemCount(): Int {
-        return alunos.size
+        return artists.size
     }
-
 
 }
