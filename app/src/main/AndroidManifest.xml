@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CursoAndroidDH">
         <activity
+            android:name=".Animacoes.Exemplo1.AnimaMainActivityEx1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".RecicleView.Exemplo3.RecicleViewMainActivityEx3"
             android:exported="true">
             <intent-filter>
