@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Animacoes.Exemplo2.AnimMainActivityEx2">
+
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/Iv_anim_oval_ex2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/circle"
+        android:layout_gravity="center"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="200dp"
+        android:layout_margin="10dp"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/IV1_anima_Ex1"
+            android:layout_width="200dp"
+            android:scaleType="centerCrop"
+            android:layout_height="200dp"
+            android:src="@drawable/guita_jazz"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

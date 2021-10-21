@@ -20,142 +20,289 @@
             android:orientation="horizontal"
             >
 
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                app:cardCornerRadius="90dp"
-                android:layout_margin="10dp"
-                >
-
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@+id/IV1_anima_Ex1"
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/Tv_anim_ex2"
                     android:layout_width="90dp"
-                    android:scaleType="centerCrop"
                     android:layout_height="90dp"
-                    android:src="@drawable/guita_jazz"
-                    />
-
-            </androidx.cardview.widget.CardView>
+                    android:src="@drawable/circle"
+                    android:layout_gravity="center"/>
 
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                app:cardCornerRadius="90dp"
-                android:layout_margin="10dp"
-                >
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="90dp"
+                    android:layout_margin="10dp"
 
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@+id/IV2_anima_Ex1"
+                    >
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/IV1_anima_Ex1"
+                        android:layout_width="90dp"
+                        android:scaleType="centerCrop"
+                        android:layout_height="90dp"
+                        android:src="@drawable/guita_jazz"
+                        />
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/Tv2_anim_ex2"
                     android:layout_width="90dp"
-                    android:scaleType="centerCrop"
                     android:layout_height="90dp"
-                    android:src="@drawable/guitar4"
-                    />
-
-            </androidx.cardview.widget.CardView>
+                    android:src="@drawable/circle"
+                    android:layout_gravity="center"/>
 
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                app:cardCornerRadius="90dp"
-                android:layout_margin="10dp"
-                >
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="90dp"
+                    android:layout_margin="10dp"
 
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@+id/IV3_anima_Ex1"
+                    >
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/IV2_anima_Ex1"
+                        android:layout_width="90dp"
+                        android:scaleType="centerCrop"
+                        android:layout_height="90dp"
+                        android:src="@drawable/guitar4"
+                        />
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/Tv3_anim_ex2"
                     android:layout_width="90dp"
-                    android:scaleType="centerCrop"
                     android:layout_height="90dp"
-                    android:src="@drawable/guitar3"
-                    />
+                    android:src="@drawable/circle"
+                    android:layout_gravity="center"/>
 
-            </androidx.cardview.widget.CardView>
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                app:cardCornerRadius="90dp"
-                android:layout_margin="10dp"
-                >
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="90dp"
+                    android:layout_margin="10dp"
 
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@+id/IV4_anima_Ex1"
+                    >
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/IV3_anima_Ex1"
+                        android:layout_width="90dp"
+                        android:scaleType="centerCrop"
+                        android:layout_height="90dp"
+                        android:src="@drawable/guitar3"
+                        />
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/Tv4_anim_ex2"
                     android:layout_width="90dp"
-                    android:scaleType="centerCrop"
                     android:layout_height="90dp"
-                    android:src="@drawable/guitar2"
-                    />
+                    android:src="@drawable/circle"
+                    android:layout_gravity="center"/>
 
-            </androidx.cardview.widget.CardView>
 
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="90dp"
+                    android:layout_margin="10dp"
+
+                    >
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/IV4_anima_Ex1"
+                        android:layout_width="90dp"
+                        android:scaleType="centerCrop"
+                        android:layout_height="90dp"
+                        android:src="@drawable/guitar2"
+                        />
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </FrameLayout>
 
         </LinearLayout>
 
     </HorizontalScrollView>
 
 
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           >
+
+
+           <androidx.appcompat.widget.AppCompatImageView
+               android:layout_width="match_parent"
+               android:layout_height="300dp"
+               android:src="@drawable/guita2"
+               android:scaleType="centerCrop"
+               />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="40dp"
+               >
+
+
+               <androidx.appcompat.widget.AppCompatImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/ic_outline_favorite_border_24"
+                   android:layout_margin="5dp"
+                   />
+
+               <androidx.appcompat.widget.AppCompatImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/ic_baseline_chat_bubble_outline_24"
+                   android:layout_margin="5dp"
+                   />
+
+               <androidx.appcompat.widget.AppCompatImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_weight="1"
+
+                   android:src="@drawable/ic_baseline_send_24"
+                   android:layout_margin="5dp"
+                   />
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:layout_weight="10"
+                   />
+
+
+               <androidx.appcompat.widget.AppCompatImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/ic_baseline_turned_in_not_24"
+                   android:layout_margin="5dp"
+                   />
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Curtido por: GuitarCenter, 6Strings e mais 201..."
+               android:textColor="@color/white"
+               />
 
 
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:src="@drawable/guita2"
-        android:scaleType="centerCrop"
-    />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        >
 
 
-        <androidx.appcompat.widget.AppCompatImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ic_outline_favorite_border_24"
-            android:layout_margin="5dp"
-        />
+           <androidx.appcompat.widget.AppCompatImageView
+               android:layout_width="match_parent"
+               android:layout_height="300dp"
+               android:src="@drawable/guitar4"
+               android:scaleType="centerCrop"
+               android:layout_marginTop="40dp"
+               />
 
-        <androidx.appcompat.widget.AppCompatImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ic_baseline_chat_bubble_outline_24"
-            android:layout_margin="5dp"
-            />
-
-        <androidx.appcompat.widget.AppCompatImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ic_baseline_send_24"
-            android:layout_margin="5dp"
-            />
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="40dp"
+               >
 
 
-        <androidx.appcompat.widget.AppCompatImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ic_baseline_turned_in_not_24"
-            android:layout_margin="5dp"
-            />
-    </LinearLayout>
+               <androidx.appcompat.widget.AppCompatImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/ic_outline_favorite_border_24"
+                   android:layout_margin="5dp"
+                   />
+
+               <androidx.appcompat.widget.AppCompatImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/ic_baseline_chat_bubble_outline_24"
+                   android:layout_margin="5dp"
+                   />
+
+               <androidx.appcompat.widget.AppCompatImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_weight="1"
+
+                   android:src="@drawable/ic_baseline_send_24"
+                   android:layout_margin="5dp"
+                   />
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:layout_weight="10"
+                   />
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Curtido por: GuitarCenter, 6Strings e mais 201.."
-        android:textColor="@color/white"
-        />
+               <androidx.appcompat.widget.AppCompatImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/ic_baseline_turned_in_not_24"
+                   android:layout_margin="5dp"
+                   />
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Curtido por: GuitarCenter, 6Strings e mais 201..."
+               android:textColor="@color/white"
+               />
 
 
+       </LinearLayout>
 
+
+   </ScrollView>
 
 </LinearLayout>
