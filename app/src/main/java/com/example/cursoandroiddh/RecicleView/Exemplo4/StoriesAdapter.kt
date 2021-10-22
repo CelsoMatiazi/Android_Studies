@@ -9,16 +9,16 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.cursoandroiddh.R
 import com.squareup.picasso.Picasso
 
-class StoriesAdapter(val stories: MutableList<DataStoriesModel>): RecyclerView.Adapter<StoriesAdapter.StoreiesViewHolder>() {
+class StoriesAdapter(val stories: MutableList<DataStoriesModel>): RecyclerView.Adapter<StoriesAdapter.StoriesViewHolder>() {
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StoreiesViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StoriesViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.rv_stories_ex4, parent, false)
-        return StoreiesViewHolder(view)
+        return StoriesViewHolder(view)
     }
 
     override fun getItemCount(): Int = stories.size
 
-    override fun onBindViewHolder(holder: StoreiesViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: StoriesViewHolder, position: Int) {
         Picasso.get()
             .load(stories[position].img)
             .placeholder(R.drawable.ic_launcher_background)
@@ -28,7 +28,7 @@ class StoriesAdapter(val stories: MutableList<DataStoriesModel>): RecyclerView.A
     }
 
 
-    inner class StoreiesViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
+    inner class StoriesViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
         var image : ImageView = itemView.findViewById(R.id.IV_stories_RV_Ex4)
         var nome : TextView = itemView.findViewById(R.id.TV_stories_RV_Ex4)
     }
