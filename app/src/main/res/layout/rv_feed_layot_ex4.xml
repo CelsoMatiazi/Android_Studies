@@ -12,7 +12,8 @@
         android:text="Celso Ricardi"
         android:textStyle="bold"
         android:textColor="@color/white"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+    />
 
     <TextView
         android:layout_width="wrap_content"
@@ -23,7 +24,7 @@
         android:textColor="@color/white"
         android:layout_alignParentEnd="true"
 
-        />
+    />
 
 
     <ImageView
@@ -31,7 +32,8 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:layout_below="@id/rv_name_ex4"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"
+    />
 
 
     <ImageView
@@ -41,7 +43,7 @@
         android:src="@drawable/ic_outline_favorite_border_24"
         android:layout_margin="5dp"
         android:layout_below="@id/IV_feed_layout_rvex4"
-        />
+    />
 
 
     <ImageView
@@ -52,7 +54,7 @@
         android:layout_margin="5dp"
         android:layout_toEndOf="@id/IV_like_rvex4"
         android:layout_below="@id/IV_feed_layout_rvex4"
-        />
+    />
 
 
 
@@ -64,7 +66,7 @@
         android:layout_margin="5dp"
         android:layout_below="@id/IV_feed_layout_rvex4"
         android:layout_toEndOf="@id/IV_comment_rvex4"
-        />
+    />
 
     <ImageView
         android:id="@+id/IV_flag_rvex4"
@@ -74,7 +76,7 @@
         android:layout_margin="5dp"
         android:layout_below="@id/IV_feed_layout_rvex4"
         android:layout_alignParentEnd="true"
-        />
+    />
 
     <TextView
         android:id="@+id/TV_curtidas_rvex4"
@@ -87,7 +89,8 @@
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="5dp"
         android:text="14 curtidas"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+    />
 
 
     <TextView
@@ -114,13 +117,8 @@
         android:layout_marginBottom="5dp"
         android:layout_toEndOf="@id/TV_user_rvex4"
         android:text="Hoje o dia esta magnifico.."
-        android:textColor="@color/white" />
-
-
-
-
-
-
+        android:textColor="@color/white"
+    />
 
 
 
