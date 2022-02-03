@@ -12,6 +12,7 @@
         <entry key="app/src/main/res/drawable/ic_baseline_help_outline_24.xml" value="0.21794871794871795" />
         <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.21794871794871795" />
         <entry key="app/src/main/res/drawable/ic_baseline_refresh_24.xml" value="0.20833333333333334" />
+        <entry key="app/src/main/res/drawable/ic_baseline_supervised_user_circle_24.xml" value="0.124" />
         <entry key="app/src/main/res/layout-v26/fragment_tab_bar_a.xml" value="0.20520833333333333" />
         <entry key="app/src/main/res/layout/activity_action.xml" value="0.19114583333333332" />
         <entry key="app/src/main/res/layout/activity_anim_main_ex2.xml" value="0.20520833333333333" />
@@ -20,6 +21,8 @@
         <entry key="app/src/main/res/layout/activity_constraint_layout_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_help.xml" value="0.20520833333333333" />
         <entry key="app/src/main/res/layout/activity_login_screen1.xml" value="0.1712962962962963" />
+        <entry key="app/src/main/res/layout/activity_login_screen2.xml" value="0.20520833333333333" />
+        <entry key="app/src/main/res/layout/activity_main_btn_nav.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main_passando_dados.xml" value="0.19114583333333332" />
         <entry key="app/src/main/res/layout/activity_main_pd3.xml" value="0.20520833333333333" />
         <entry key="app/src/main/res/layout/activity_motion_layout_main.xml" value="0.19114583333333332" />
@@ -28,10 +31,12 @@
         <entry key="app/src/main/res/layout/activity_recicle_view_main_ex3.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_recycler_main_ex2.xml" value="0.20520833333333333" />
         <entry key="app/src/main/res/layout/activity_recycler_view_main_ex2.xml" value="0.20520833333333333" />
+        <entry key="app/src/main/res/layout/activity_relative_layout.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_rv_main_ex4.xml" value="0.19114583333333332" />
         <entry key="app/src/main/res/layout/activity_tab_bar_main.xml" value="0.20520833333333333" />
         <entry key="app/src/main/res/layout/activity_table.xml" value="0.20520833333333333" />
         <entry key="app/src/main/res/layout/activity_view_pager_main.xml" value="0.19114583333333332" />
+        <entry key="app/src/main/res/layout/activity_whats_app.xml" value="0.20520833333333333" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.15648148148148147" />
         <entry key="app/src/main/res/layout/fragment_p__d___a.xml" value="0.19114583333333332" />
         <entry key="app/src/main/res/layout/fragment_p__d___b.xml" value="0.19114583333333332" />

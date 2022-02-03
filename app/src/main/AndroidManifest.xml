@@ -3,6 +3,7 @@
     package="com.example.cursoandroiddh">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
         android:allowBackup="true"
@@ -11,6 +12,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CursoAndroidDH">
+        <activity
+            android:name=".share_permissions.WhatsAppActivity"
+            android:windowSoftInputMode="stateVisible"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Layouts.RelativeLayout.RelativeLayoutActivity"
+            android:exported="false" />
         <activity
             android:name=".Layouts.MotionLayout.MotionLayoutMainActivity"
             android:exported="true">
