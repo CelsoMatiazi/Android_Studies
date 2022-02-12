@@ -26,6 +26,9 @@
         <entry key="app/src/main/res/layout/activity_main_passando_dados.xml" value="0.19114583333333332" />
         <entry key="app/src/main/res/layout/activity_main_pd3.xml" value="0.20520833333333333" />
         <entry key="app/src/main/res/layout/activity_motion_layout_main.xml" value="0.19114583333333332" />
+        <entry key="app/src/main/res/layout/activity_mvcactivity.xml" value="0.20520833333333333" />
+        <entry key="app/src/main/res/layout/activity_mvpactivity.xml" value="0.20520833333333333" />
+        <entry key="app/src/main/res/layout/activity_mvvmactivity.xml" value="0.20520833333333333" />
         <entry key="app/src/main/res/layout/activity_pass_data2_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_recicle_view_main.xml" value="0.20520833333333333" />
         <entry key="app/src/main/res/layout/activity_recicle_view_main_ex3.xml" value="0.22" />
@@ -53,6 +56,7 @@
         <entry key="app/src/main/res/layout/fragment_view_page_b.xml" value="0.18" />
         <entry key="app/src/main/res/layout/fragment_view_pager_a.xml" value="0.20520833333333333" />
         <entry key="app/src/main/res/layout/item_layout_recycler_view_ex2.xml" value="0.20520833333333333" />
+        <entry key="app/src/main/res/layout/item_placar_layout.xml" value="0.20520833333333333" />
         <entry key="app/src/main/res/layout/layout_recycler_ex3.xml" value="0.20520833333333333" />
         <entry key="app/src/main/res/layout/recycler_view_ex1.xml" value="0.20520833333333333" />
         <entry key="app/src/main/res/layout/recycler_view_layout_ex2.xml" value="0.19114583333333332" />

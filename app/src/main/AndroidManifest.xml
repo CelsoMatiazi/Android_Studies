@@ -3,7 +3,7 @@
     package="com.example.cursoandroiddh">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -13,9 +13,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CursoAndroidDH">
         <activity
-            android:name=".share_permissions.WhatsAppActivity"
-            android:windowSoftInputMode="stateVisible"
+            android:name=".architectures.mvvm.view.MVVMActivity"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".architectures.mvp.view.MVPActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".architectures.mvc.controller.MVCActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".share_permissions.WhatsAppActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateVisible">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,15 +52,6 @@
         <activity
             android:name=".Layouts.RelativeLayout.RelativeLayoutActivity"
             android:exported="false" />
-        <activity
-            android:name=".Layouts.MotionLayout.MotionLayoutMainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".Layouts.ConstraintLayout.ConstraintLayoutMainActivity"
             android:exported="true">
@@ -156,14 +174,16 @@
         <activity
             android:name=".Fragments.BottonNav.HelpActivity"
             android:exported="true" />
-        <activity android:name=".Fragments.BottonNav.MainActivityBtnNav">
+        <activity android:name=".Fragments.BottonNav.MainActivityBtnNav"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Fragments.MultFragments.MainActivityMult">
+        <activity android:name=".Fragments.MultFragments.MainActivityMult"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
