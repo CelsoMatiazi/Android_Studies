@@ -13,6 +13,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CursoAndroidDH">
         <activity
+            android:name=".api.full.FullApiActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".api.medium.MediumApiActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".api.basic.BasicApiActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".architectures.mvvm.view.MVVMActivity"
             android:exported="true">
             <intent-filter>
@@ -174,7 +201,8 @@
         <activity
             android:name=".Fragments.BottonNav.HelpActivity"
             android:exported="true" />
-        <activity android:name=".Fragments.BottonNav.MainActivityBtnNav"
+        <activity
+            android:name=".Fragments.BottonNav.MainActivityBtnNav"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -182,7 +210,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Fragments.MultFragments.MainActivityMult"
+        <activity
+            android:name=".Fragments.MultFragments.MainActivityMult"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
