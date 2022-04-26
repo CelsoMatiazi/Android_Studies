@@ -32,7 +32,7 @@ class WhatsAppActivity : AppCompatActivity(R.layout.activity_whats_app) {
     private lateinit var editName : ImageView
 
 
-    val permissionResultCallback = registerForActivityResult(
+    private val permissionResultCallback = registerForActivityResult(
         ActivityResultContracts.RequestPermission()){
         if(it){
             userImage.context?.let { context ->
